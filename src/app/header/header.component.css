@@ -1,0 +1,180 @@
+.navbar-wrap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    z-index: 1001;
+    display: flex;
+    height: 3.91rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 #e6e6e6;
+}
+.nav-search {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 2rem;
+    bottom: auto;
+    z-index: 101;
+    display: none;
+    height: 3.91rem;
+    max-width: 100%;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+}
+.hloov-navbar {
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    background-color: transparent;
+}
+
+.hloov-search.rectangle.nav-menu {
+    z-index: 101;
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+.hloov-search.rectangle {
+    position: relative;
+    border-style: solid none;
+    border-top-color: #666;
+    border-bottom-color: #666;
+    border-radius: 0;
+}
+.hloov-search {
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: center;
+    border: 1px solid #666;
+    border-radius: 24px;
+}
+.w-form {
+    margin: 0 0 15px;
+}
+.vertical-search {
+    position: absolute;
+    left: 0;
+    top: auto;
+    right: auto;
+    bottom: 0;
+    z-index: 101;
+    width: 0.1px;
+    height: 100%;
+    background-color: #666;
+}
+.hloov-search-input {
+    z-index: 12;
+    margin-bottom: 0;
+    border: 0 solid transparent;
+    background-color: transparent;
+}
+.hloov-search-logo {
+    background-color: transparent;
+    background-image: url(https://uploads-ssl.webflow.com/61f3a8a…/62a38ac…_search_FILL0_wght100_GRAD0_opsz48.svg);
+    background-position: 50% 50%;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+.w-button {
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: #3898ec;
+    color: #fff;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+.search-close-icon {
+    padding-left: 1rem;
+    cursor: pointer;
+}
+img {
+    margin-top: 15px;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.w-nav-button {
+    position: relative;
+    float: right;
+    padding: 18px;
+    font-size: 24px;
+    display: none;
+    cursor: pointer;
+    user-select: none;
+}
+.w-nav-brand {
+    position: relative;
+    float: left;
+    text-decoration: none;
+    color: #333;
+}
+.hloov-navigation-menu-wrapper {
+    z-index: 0;
+    display: flex;
+    padding-left: 3rem;
+    align-items: center;
+}
+.w-nav-menu {
+    position: relative;
+    float: left;
+}
+.hloov-nav-menu-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mega-menu-text {
+    font-size: 17px;
+    padding: 1rem;
+    cursor: pointer;
+}
+.mega-menu-text:hover{
+    color:#06c;
+}
+.mega-menu-dropdown-toggle {
+    padding: 0;
+    color: #666;
+}
+.hloov-text-color-swatch-grey {
+    padding-left: 400px;
+}
+.hloov-text-color-swatch-grey {
+    text-decoration: none;
+    font-size: 17px;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    color: #666;
+}
+.navbar-hamburger {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+.fa-1x {
+    font-size: 1rem;
+  }
+.navbar-toggler.toggler-example {
+    margin-top: 5px;
+    cursor: pointer;
+    border: hidden;
+  }
+.dark-blue-text {
+    color: #666;
+  }
+  

@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body{
+   margin: 0;
+   padding: 0;
+}
+
+p{
+   margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.p-flex{
+    align-items: center;
+}
+
+.p-flex-align-center{
+    align-items: center;
+}
+
+.p-wrapper{
+    position: relative;
+    
+}
+
+/* .p-wrapper::before{
+    content:'';
+    background: greenyellow;
+    height: 100%;
+    width: 21;
+    position: absolute;
+    z-index: -1;
+
+} */
